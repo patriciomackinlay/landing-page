@@ -46,15 +46,31 @@ a {
 .hero {
     background-color: #1f2937;
     color: #f9faf8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 150px;
+    padding-right: 150px;
+    height: 300px;
+
 }
 
 .hero-main-text {
     font-size: 48px;
     font-weight: 900;
     color: #f9faf8;
+    margin-bottom: 10px;
+    display:flex;
+    flex-wrap: wrap;
 }
 
 .hero-secondary-text {
     font-size: 18px;
     color: #E5E7EB;
+    margin-bottom: 15px;
+}
+
+.hero-image img {
+    width: 300px;
+    margin-left: 50px;
 }
